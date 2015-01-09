@@ -18,6 +18,14 @@
 
 html, body {
 	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+}
+
+body {
+	 width:80%;
+     margin-left:auto;
+     margin-right:auto;
+	font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
 	text-decoration: none;
 	color: inherit;
+	font-weight: 100;
+	color: #2AB1E0; 
 }
 
 #sidebar {
@@ -94,7 +104,7 @@ img {
 		border: 1px solid #33acb7;
 		color: #33acb7;
 		a {
-			color: #33acb7 !important;
+			color: #2AB1E0 !important;
 		}
 	}
 }
@@ -112,10 +122,12 @@ img {
 	#header {
 		padding: 1em 3em;
 		border-bottom: 1px solid #d6dce0;
-		background: #f5f7f9;
+		background: white;
 		color: #9eafba;
+		font-weight: 100;
 		p {
 			display: inline;
+			font-weight: 100; 
 		}
 		a {
 			color: #9eafba;
@@ -136,7 +148,8 @@ img {
 		.title {
 			margin: 0;
 			a {
-				font-weight: 500;
+				font-weight: 100;
+				font-family: 'Libre Baskerville', serif;
 				text-decoration: none;
 				color: #2a2f35;
 				font-size: 1.5em;
@@ -153,15 +166,22 @@ img {
 	#post_content {
 		padding: 1em 3em;
 		.title {
-			font-weight: 500;
+			font-family: 'Libre Baskerville', serif;
+			font-weight: 100;
 			text-decoration: none;
 			color: #2a2f35;
 			font-size: 2.5em;
 			margin-bottom: 0;
 		}
+		h1.title {
+			font-family: 'Libre Baskerville', serif;
+			font-weight: 100;
+		}
 		.body {
 			font-size: 1.1em;
 			line-height: 1.75;
+			font-family: 'Libre Baskerville', serif;
+			font-weight: 100;
 		}
 		.date_and_author {
 			color: #9eafba;
@@ -229,6 +249,10 @@ img {
 			p {
 				font-size: 1.1em;
 				line-height: 1.75;
+			}
+			p.body {
+				font-family: 'Libre Baskerville', serif;
+				font-weight: 100;
 			}
 			a {
 				color: #33acb7;
